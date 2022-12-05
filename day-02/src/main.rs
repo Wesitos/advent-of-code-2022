@@ -66,10 +66,6 @@ fn main() {
         println!("Score: {}", score);
     }
 
-    assert_eq!(match_score_mapper_2('A', 'Y'), 4);
-    assert_eq!(match_score_mapper_2('B', 'X'), 1);
-    assert_eq!(match_score_mapper_2('C', 'Z'), 7);
-
     if let Ok(lines) = read_lines(INPUT_PATH) {
         let score = lines
             .filter(|x| !(x.as_ref().unwrap().is_empty()))
