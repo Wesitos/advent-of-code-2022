@@ -1,8 +1,6 @@
-mod helpers;
-
 use std::io;
 use itertools::Itertools;
-use crate::helpers::read_lines;
+use helpers::read_lines;
 
 const INPUT_PATH:&str = "./input.txt";
 

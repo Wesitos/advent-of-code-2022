@@ -1,12 +1,10 @@
-mod helpers;
-
 use std::collections::HashSet;
 use std::io;
 use std::iter::Iterator;
 
 use itertools::Itertools;
 
-use crate::helpers::read_lines;
+use helpers::read_lines;
 
 const INPUT_PATH: &str = "./input.txt";
 
